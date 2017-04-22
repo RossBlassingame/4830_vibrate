@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,28 @@ class ViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 
+	@IBAction func Button1Vibrate(_ sender: Any) {
+		AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+	}
 
+	@IBAction func Button2Vibrate(_ sender: Any) {
+		AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+	}
+	
+	@IBAction func Button3Vibrate(_ sender: Any) {
+		AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+	}
+	
+	@IBAction func Button4Vibrate(_ sender: Any) {
+		AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+	}
+	
+	@IBAction func Button5Vibrate(_ sender: Any) {
+		AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+	}
+	
+	@IBAction func Button6Vibrate(_ sender: Any) {
+		AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+	}
 }
 
